@@ -1,0 +1,896 @@
+
+/*
+COLORS
+
+VERMELHO :rgb(232,48,24); #E83018;
+VINHO    :rgb(132,26,30); #841A1E;
+VERDE	 :rgb(7,156,57); 
+
+*/
+
+@font-face {
+    font-family: Euphemia;
+    src: url(fonts/euphemia.ttf);
+}
+
+@font-face {
+    font-family:Segoe Ui light;
+    src: url(fonts/segoeuilight.ttf);
+}
+
+@font-face {
+    font-family:calibri;
+    src: url(fonts/calibri.ttf);
+}
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+.navbar{	
+	background-color:;
+	position: relative;
+	height: 60px;
+}
+ 
+/*SLIDER */
+#owl-demo .item img{
+		margin-top: 0px;
+        display: block;
+        width: 100%;
+        height: 200px;
+    }
+
+.navbar img{
+	width: 30%;
+	height: 80%;
+	float:left;
+	padding-left:15px;
+	padding-top: 7px;
+	margin-left: 2px;
+}
+
+/* NAV BAR */
+.navbar ul{	
+	float:right;
+	text-decoration: none;	
+	
+	font-family:"Euphemia","verdana","calibri";
+	font-size:16px; 
+	font-width:400;
+	
+	padding-right: 80px;
+	padding-top: 30px;
+
+	display: none;	
+}
+
+.navbar ul li{
+
+	padding-right: 10px;
+	padding-left: 10px;
+	text-decoration: none;
+	display: inline;
+
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: rgb(0,100,0);
+
+}
+
+.navbar ul li a:hover{
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	cursor: pointer;
+}	
+
+#navmobile {
+	visibility:visible;	
+	background-color:;
+	height: 100%;
+	width: 40px;
+	float: right;
+}
+
+#navmobile img{
+	float: right;
+	width: 100%;
+}
+
+#menumobile ul li{
+	font-family: "Euphemia";
+}
+
+/*FORMULARIO DESAPARECE*/
+#logmeucond-nav{
+	visibility: hidden;
+	display: none;
+}
+	
+
+
+/*RODAPE */
+	#rodape{
+		height: 200px;
+		width: 100%;		
+		clear: both;		
+	}
+
+
+	#rodtext2{
+		width: 90%;
+		padding:0;
+		float:right;
+		margin-right: 10px;
+		margin-top: 110px;
+
+	}
+
+	#rodtext2 h2{
+		font-family:"Euphemia","calibri";
+		font-weight: 400;
+		color: white;		
+		font-size: 16px;
+		margin-left: 5px;
+		padding-top: 15px;
+	}
+
+	#rodtext2 p{
+		color: white;
+		font-size: 12px;
+	}
+
+	#rodtext2 a{
+		color: white;
+	}
+
+	#rodtext{		
+		display: none;
+	}
+
+/*____________________________________________________________________________________PAGINA PRINCIPAL*/		
+/* CORPO */
+#villa1{
+	margin-top: 50px;
+	background-color:;
+	width: 90%;
+	height: 400px;
+	color: #555;
+}
+
+#villa1 p{
+	margin: 10px 10px;
+
+}
+
+/* CAIXA 1*/
+	.villatriple1{
+		float: left;
+		background-color:;
+		width: 100%;
+		height: 98%;
+		margin: 1px;
+		color: #555;	
+		border-color: #eee;
+		border-width: 1px;		
+		display: inherit;
+	}
+		.villatriple1 h2{
+		font-family:"Euphemia","calibri";
+		font-size:25px;
+		}
+
+		.villatriple1 p{
+		font-family:"Euphemia","calibri";
+		font-size:15px;
+		text-align: left;
+		padding-left:30px; 
+		}
+
+
+		.villatriple1 img{
+			margin-top: 40px;
+			height: 200px;
+			width: 70%;
+		}
+
+		
+		#form-online2 input{			
+			height: 25px;
+			width: 80%;
+			float:none;
+			border-radius: 3px;
+			border-style: solid;
+			border-width: 1px;
+			border-color: rgb(7,156,57);			
+			font-family:"Euphemia","calibri";			
+			font-size:15px;
+			margin:0; 
+			margin-top: 2px;
+			outline:none;
+		}		
+
+		#form-online2 input:focus{
+			border-color: green;
+			box-shadow: 1px 1px 2px #333333;
+		}
+					
+		#form-online2 button{
+			margin-top: 10px;
+			
+			height: 40px;
+			width: 80%;
+			border-radius: 4px;
+			border-style: solid;
+			border-width: 0px;
+			
+			background-color: rgb(0,150,0);
+			font-family:"Euphemia","calibri";
+			font-size:15px; 
+			color: white;
+		}
+
+		#form-online2 button:focus{
+			color: white;
+			border-color:;
+			background-color: green;			
+			outline: none;
+		}
+
+		#villatriple-ate{
+			display: none;
+		}		
+
+/* CAIXA 3*/
+	.villatriple2{
+		float: left;
+		background-color: ;
+		width: 99%;
+		height: 98%;
+		margin: 1px;
+
+		
+		border-color: #eee;
+		border-width: 1px;				
+	}
+		.villatriple2 h2{
+		font-family:"Euphemia","calibri";
+		font-size:25px; 
+		}
+
+		.villatriple2 p{
+		font-family:"Euphemia","calibri";
+		font-size:15px; 
+		}
+
+		.villatriple2 a{
+			text-decoration: none;
+			font-family: "Euphemia","calibri";			
+			font-size: 15px;			
+			margin-top: 20px;			
+			color: white;
+			font-weight:200;
+			padding: 3px;
+			border-radius: 4px;
+			border-style: solid;
+			border-width: 0px;	
+			background-color:rgb(0,150,0);
+			padding: 5px;
+
+			float: right;
+		}
+
+		.villatriple2 a:hover{
+			text-decoration: underline;
+			cursor: pointer;
+			background-color: :rgb(132,26,30);	
+		}
+
+		.villatriple2 img{
+			box-shadow: 1px 5px 6px rgba(0,0,0,.2);
+			height: 200px;					
+			width: 80%;
+
+			border-top-right-radius: 20%;		
+			border-bottom-left-radius: 20%;
+		}
+
+/* CAIXA 2*/
+	.villatriple3{
+		float: left;
+		background-color: ;
+		width: 99%;
+		height: 98%;
+		margin: 1px;		
+	}
+
+		.villatriple3 h2{
+		font-family:"Euphemia","calibri";
+		font-size:25px; 
+		}
+
+		.villatriple3 p{
+		font-family:"Euphemia","calibri";
+		font-size:15px; 
+		}
+
+		.villatriple3 a{
+			text-decoration: none;
+			font-family: "Euphemia","calibri";
+			
+			font-size: 15px;
+			float: right;
+			margin-top: 20px;
+			margin-right: 35px;
+			color: white;
+			font-weight: bold;
+
+			padding: 3px;
+			border-radius: 4px;
+			border-style: solid;
+			border-width: 0px;	
+			background-color: rgb(0,150,0);
+
+			padding: 5px;
+		}
+
+		.villatriple3 a:hover{
+			text-decoration: underline;
+			cursor: pointer;	
+			background-color: :rgb(132,26,30);
+		}
+
+		.villatriple3 img{
+			box-shadow: 1px 5px 6px rgba(0,0,0,.2);
+			height: 200px;					
+			width: 80%;
+			border-top-right-radius: 20%;		
+			border-bottom-left-radius: 20%;
+		}
+
+/*____________________________________________________________________________________EMPRESA*/	
+
+#bannerempresa{
+	width: 100%;
+	height: 220px;
+}
+
+#bannerempresa img{
+	width: 100%;
+	height: 100%;
+}
+
+#etexto{
+	background-color:;
+	color:#333;
+	width: 90%;
+	margin-top:30px;
+}
+
+#etexto h2{
+	font-family: "Euphemia","calibri";	
+	font-size: 45px;
+	font-weight: 400;
+}
+
+#etexto p{
+	font-family: "Euphemia","calibri";
+	font-style: 200;
+	font-size: 15px;
+	text-align:justify;
+	margin-bottom: 5px 10px;
+}
+
+#fraseend p{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#etexto a{
+	margin-top: 40px;
+	
+	height: 40px;
+	width: 50%;
+	
+	border-radius: 4px;
+	border-style: solid;
+	border-width: 0px;
+			
+	background-color: rgb(30,156,50);
+	font-family:"Euphemia","calibri";
+	font-size:20px; 
+	font-weight: 400;
+	color: white;
+	padding: 8px;
+	text-decoration: none;
+}
+
+#etexto-f{
+	border-bottom-style: solid;	
+	border-width: 1px;
+	border-color: white;
+	margin-bottom: 10px;
+	width: 100%;
+	background-color: ;
+	float: left;
+}
+
+#etexto-f h3{
+	font-family:"Euphemia","calibri";	
+	font-size: 25px;
+	font-weight: 400;	
+	text-align: center;
+	margin-top: 20px;
+}
+
+#etexto-f p{
+	text-align: center;
+	margin: 10px 20px;
+	margin-bottom: 35px;
+}
+
+#etexto-f-sep{
+	clear: both;
+	height: 10px;
+	border-bottom-style: solid;	
+	border-width: 1px;
+	border-color: #ddd;
+}
+
+/*____________________________________________________________________________________SERVIÇOS*/
+#bannerservico{
+	width: 100%;
+	height: 30%;
+}
+
+#bannerservico img{
+	width: 100%;
+	height: 100%;
+}
+
+/*AJUSTES IMAGENS SECTIONS*/
+#bodyservico #textadm #textotec #textofin #textorh img{
+	clear: both;
+	float: center;
+}
+
+#textorh img{
+	clear: both;
+	float:;
+	display: block
+}
+
+#textoservico{
+	width: 80%;
+	height: auto; 
+	margin-top: 40px;
+}
+
+#textoservico p{
+	font-family: "Segoe Ui","Euphemia","calibri";
+	font-style: 200;
+	font-size: 18px;
+	text-align: center;
+	text-indent: 40px;
+	margin-bottom: 30px;
+	color: #333;
+}
+
+.bservico-img{
+		width: 100%;
+		background-color: ;			
+		float: left;			
+	}
+		.bservico-img img{
+			vertical-align: middle;
+			float: left;
+			margin-left: 40px;
+			margin-bottom: 20px;
+		}
+
+	.bservico-texto{
+		clear: both;
+		width: 90%;
+		background-color: ;
+		float: left;
+		height: auto;		
+	}
+
+#textoadm{
+	width: 95%;
+	height: auto; 
+	margin-top: 10px;
+	background-color:;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ddd;
+	border-radius: 20px;
+	padding-bottom: 30px;
+}
+
+	#textoadm h2{
+		font-family: "Segoe Ui light","Euphemia","calibri";
+		font-style: 200;
+		font-size: 35px	;
+		padding: 30px;	
+	}
+	#textoadm ul{
+		font-family: "Euphemia","calibri";
+		font-style: 200;
+		font-size: 15px;
+		text-align: left;
+		margin:10px;
+		list-style-type: initial;
+
+	}
+
+	#textoadm ul li{
+		margin-left: 40px;
+	}
+
+#textofin{
+	width: 95%;
+	height: auto; 
+	margin-top: 10px;
+	background-color:;
+
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ddd;
+	border-radius: 20px;
+	padding-bottom: 30px;
+}
+
+	#textojuri ul img{	
+
+	}
+	
+	#textofin h2{
+		font-family: "Segoe Ui light","Euphemia","calibri";
+		font-style: 200;
+		font-size: 35px	;	
+		padding: 30px;	
+	}
+
+	#textofin ul{
+		font-family: "Euphemia","calibri";
+		font-style: 200;
+		font-size: 15px;
+		text-align: left;
+		margin:10px;
+		list-style-type: initial;
+	}
+
+	#textofin ul li{
+		margin-left: 40px;
+	}
+
+#textorh{
+	width: 95%;
+	height: auto; 
+	margin-top: 10px;
+	background-color:;
+
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ddd;
+	border-radius: 20px;
+	padding-bottom: 30px;
+}
+	#textorh h2{
+		font-family: "Segoe Ui light","Euphemia","calibri";
+		font-style: 200;
+		font-size: 35px	;	
+		padding: 30px;	
+	}
+
+	#textorh ul{
+		font-family:"Euphemia","calibri";
+		font-style: 200;
+		font-size: 15px;
+		text-align: left;
+		margin:10px;
+		list-style-type: initial;
+	}
+
+	#textorh ul li{
+		margin-left: 40px;
+	}
+
+
+#textojuri{
+	width: 95%;
+	height: auto; 
+	margin-top: 10px;
+	background-color:;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ddd;
+	border-radius: 20px;
+	padding-bottom: 30px;
+
+}
+	#textojuri h2{
+		font-family: "Segoe Ui light","Euphemia";
+		font-style: 200;
+		font-size: 35px	;	
+		padding: 30px;	
+	}
+	#textojuri ul{
+		font-family: "Euphemia","calibri";
+		font-style: 200;
+		font-size: 15px;
+		text-align: left;
+		margin:10px;
+		list-style-type: initial;
+	}
+
+	#textojuri ul li{
+		margin-left: 40px;
+	}
+
+#textost{
+	width: 95%;
+	height: auto; 
+	margin-top: 10px;
+	background-color:;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ddd;
+	border-radius: 20px;
+	padding-bottom: 30px;
+}
+	#textost h2{
+		font-family: "Segoe Ui light","Euphemia";
+		font-style: 200;
+		font-size: 35px	;	
+		padding: 30px;	
+	}
+	#textost ul{
+		font-family: "Euphemia","calibri"
+		font-style: 200;
+		font-size: 15px;
+		text-align: left;
+		margin:10px;
+		list-style-type: initial;
+	}
+
+	#textost ul li{
+		margin-left: 40px;
+	}
+
+	
+#textotec{
+	width: 95%;
+	height: auto; 
+	margin-top: 10px;
+	background-color:;
+
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ddd;
+	border-radius: 20px;
+	padding-bottom: 30px;
+}
+	
+	#textotec h2{
+		font-family: "Segoe Ui light","Euphemia","calibri";
+		font-style: 200;
+		font-size: 35px	;	
+		padding: 30px;	
+	}
+	#textotec ul{
+		font-family: "Euphemia","calibri";
+		font-style: 200;
+		font-size: 15px;
+		text-align: left;
+		margin:10px;
+		list-style-type: initial;
+	}
+
+	#textotec ul li{
+		margin-left: 40px;
+	}
+
+	#textotec a{
+		border-radius: 4px;
+		border-style: solid;
+		border-width: 0px;
+		padding: 3px 3px;
+		border-style: solid;
+		border-width: 1px;
+		border-color: rgb(7,156,57);
+		background-color: rgb(7,156,57);
+		font-family:"Euphemia","calibri";
+		font-size:15px; 
+		color: white;
+		text-decoration: none;
+	}
+/*____________________________________________________________________________________VILLA ONLINE */
+
+#bannervo{
+	width: 100%;
+	height: 30%;
+	background-color: ;
+	margin-top: -50px;
+}
+
+#bannervo img{
+	width: 100%;
+	height: 100%;
+}
+
+#bodyvo{
+	margin-top: 30px;
+	height: 1300px;
+	width: 90%;
+	background-color:;
+}
+
+#bodyvo h2{
+	font-family: "Segoe Ui light","Euphemia","calibri";
+	font-style: 200;
+	font-size: 45px;
+	color: #333;
+}
+#bodyvo p{
+	font-family: "Euphemia","calibri";
+	font-style: 200; 	
+	font-size: 18px;
+	margin: 10px 10px;
+}
+
+/*tecnologia*/
+#votecl{
+	margin-top: 20px;
+	height: auto;
+	width: 99%;
+	float:left;
+	background-color:;
+	font-family: "Segoe Ui light","Euphemia","calibri";
+	font-style: 200;
+	font-size: 30px;
+
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #ddd;
+}
+
+	#votecl h3{
+		margin-top: 13px;
+	}
+
+	#votecl p{
+		font-family: "Euphemia","calibri";
+		font-style: 200;
+		font-size: 18px;
+		text-align: justify;
+		padding-top: 10px;
+		margin-bottom: 10px;
+		margin: 5px 20px;
+	}
+
+	#votecr{
+		margin-top: 10px;
+		height: 500px;
+		width: 99%;
+		float:left;
+		background-color: ;
+		
+		border-bottom-width: 1px;
+		border-bottom-color: #ddd;
+		border-bottom-style: solid;
+	}
+
+	#votecr img{
+		height: 80%;
+		width:100%;
+		border-radius: 20px;
+		float: left;
+	}
+
+
+/*segurança*/
+#vosegl{
+	margin-top: 20px;
+	height: auto;
+	width: 95%;
+	float:left;
+	background-color: ;
+	font-family: "Segoe Ui light","Euphemia";
+	font-style: 200;
+	font-size: 30px;
+}
+
+	#vosegl h3{
+		margin-top: 13px;
+	}
+
+	#vosegl p{
+		font-family: "Euphemia","calibri";
+		font-style: 200;
+		font-size: 18px;
+		text-align: justify;
+		padding-top: 10px;
+		margin-bottom: 10px;
+		margin: 10px 20px;
+	}
+
+#vosegr{
+	margin-top: 20px;
+	height: 500px;
+	width: 98%;
+	float:left;
+	background-color:;
+}
+
+	#vosegr img{
+			height: 80%;
+			width:100%;
+			border-radius: 20px;
+		}
+
+/*-------------LEIS------------------*/
+#leis-texto h2{
+	font-size: 40px;
+	font-weight: 200;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+#lt{
+	width: 90%;
+	background-color: ;
+	display: inline-block;
+	height: auto;
+}
+
+#lt-left{
+		float: left;
+		width: 50%;
+		background-color:;
+		height: 130px;		
+		border-color: #ddd;
+	}
+		#lt-left h3{
+			margin-bottom: 20px;
+			font-size: 15px;			
+		}
+
+		#lt-left a{
+			font-size: 10px;	
+			padding: 10px;
+			background-color: green;
+			border-style: solid;
+			border-width: 0px;
+			border-radius: 5px;
+			text-decoration: none;
+			color: white;		
+		}
+
+	#lt-right{
+		float: left;
+		width: 50%;
+		background-color:;		
+		height: 130px;
+		border-color: #ddd;
+	}
+
+		#lt-right h3{
+			margin-bottom: 20px;
+			font-size: 15px;	
+		}
+
+		#lt-right a{
+		font-size: 10px;			
+			padding: 10px;
+			background-color: green;
+			border-style: solid;
+			border-width: 0px;
+			border-radius: 5px;
+			text-decoration: none;
+			color: white;		
+		}

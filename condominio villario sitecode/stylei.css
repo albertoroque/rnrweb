@@ -1,0 +1,1427 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	
+}
+
+#fundo{
+	width: auto;
+	height: auto;
+	background-color: white;
+	position: center;
+	
+}
+
+	div#titulo{
+		margin-top:2px;
+		width:1080px;
+		height:110px;
+		padding-top:18px;
+		background-color:	;
+	}
+	
+		img.logo{
+			height: 100px;
+			background-color:white;
+			float: left;
+		}
+	
+		#menu {
+			float:right;
+			padding:0px;
+			margin-top:30px;
+			margin-right:35px;
+			font-size: 16px;
+			font-family: "segoe ui","verdana","Trebuchet MS";
+			position: relative;
+			list-style:none;
+			
+			
+		}
+		#menu li { 
+			display: inline; 
+			text-decoration:none;
+		}
+		
+		#menu li a {	
+			padding: 10px 10px;
+			display: inline-block;
+			text-decoration: none;
+		}
+			
+		#menu li a:hover {	
+			text-decoration:none;
+			background-color:rgb(0,124,0);
+			color: white;
+			cursor:pointer;
+		}
+		
+		#clickindex a{
+			background-color:rgb(0,124,0);
+			text-decoration:none;
+			color: white;
+		}
+		
+		#clickcontato a{
+			background-color:rgb(0,124,0);
+			color: #FFFFFF;
+		}
+		
+		#clickfotos a{
+			background-color:rgb(0,124,0);
+			color: #FFFFFF;
+		}
+		
+		#clicknoticias a{
+			background-color:rgb(0,124,0);
+			color: #FFFFFF;
+		}
+		
+		#clickmais a{
+			background-color:rgb(0,124,0);
+			color: #FFFFFF;
+		}
+
+/*########################################
+EFEITO DE IMAGEM CSS
+*/
+		#imgefect{
+			position:relative;
+			box-shadow:0 2px 2px #666
+		}
+		#imgefect:hover{
+			top:-10px;
+			box-shadow:0 10px 10px #666
+		}
+		
+		#imgefect2{
+			position:relative;
+			box-shadow:0 2px 2px #666
+		}
+		#imgefect2:hover{
+			top:-30px;
+			box-shadow:0 10px 10px #666
+		}
+		
+/*#######################################
+*/		
+		
+	div#banner{
+		
+		height : 500px;
+		width: 1088px;
+		background-color: rgb(0,124,0);
+		position: center;
+	}
+	
+	#contindex{	
+			margin-top:10px;
+			background-color:;
+			position: relative;
+			width: 1320px;
+			height:480px;
+			position: center;
+	}
+		
+	div#conteudo{
+	
+	}
+	
+/*###################################
+INDEX STYLE
+*/
+	div#botom{
+		background-color:;
+		width: 420px;
+		height: 400px;
+		float:left;
+		margin:6px;
+	}
+	
+	#botom a{
+		color:white;
+		padding:5px 5px;
+		margin: 10px;
+		position:center;
+		font-size: 15px;
+		font-family:"Segoe ui","verdana";
+		border-style:solid;
+		border-width:2px;
+		border-color: green;
+		border-radius: 3px;
+		background-color:green;
+		width:150px;
+		height:22px;
+		text-decoration:none;
+	}
+	
+	#botom a:hover{
+		background-color:white;
+		color: gray;
+		border-color:gray;
+		cursor:pointer;
+	}
+	
+	#botom a:active{
+		background-color:gray;
+		color: white;
+		border-color: gray;
+	}
+
+	div#botomimage{
+		margin-top:20px;
+		background-color:;
+		width:202px;
+		height:202px;
+		position: center;
+		margin-bottom:15px;
+	}
+	
+	#botom h2{
+		background-color:;
+		font-family:"segoe ui light","verdana";
+		font-weight: 500;
+		font-size: 22px;
+		color: #333;
+		margin-top:20px;
+		margin-bottom: 15px;
+		width:310px;
+		height:80px;
+	}
+	
+	div#rodape{
+		clean:both;
+		height: 20px;
+		width: 1088px;
+		margin-top: 8px;
+		padding-top: 5px;
+	}
+	
+	div#rodape2{
+		clean:both;
+		height: 20px;
+		width: 100%;
+		height:auto;
+		margin-top: 8px;
+		padding-top: 5px;
+		background-color:white;
+	}
+	
+	div#wrap{	
+			width: 1088px;
+			margin :auto;
+			border-style: solid;
+			border-width: thin;
+			border-color: rgb(204,255,204);
+			padding : 15px;	
+	}
+
+/*################### ATALHO ICONE STYLE*/
+
+div#itemindexicon{
+		background-color:;
+		width:1320px;
+		height:260px;
+		border-top-style:solid;
+		border-width:1px;
+		border-color: #cccccc;
+	}
+	
+#atalhoicone1{
+		float:left;
+		width: 33.33%;
+		height:100%;
+		background-color:rgb(242,242,242);
+}
+	
+		#atalhoiconeleft{
+			float:center;
+		}
+		
+		#atalhoicone1 h5{
+			font-family:"segoe ui light","verdana";
+			font-weight: 500;
+			font-size: 50px;
+			color: #333;
+			margin-top:20px;
+			margin-bottom: 25px;
+			color:gray;
+		}
+		
+		#atalhoicone1 img{
+			margin-top:20px;
+			width:220px;
+			height:150px;
+		}
+		
+		#atalhoicone1 img:hover{
+			-webkit-filter: grayscale(100%);
+			-moz-filter: grayscale(100%);
+			-ms-filter: grayscale(100%);
+			-o-filter: grayscale(100%);
+			filter: grayscale(100%);
+		}
+		
+		#atalhoicone1 a{
+			text-decoration:none;
+		}
+	
+#atalhoicone2{
+		float:left;
+		width: 33.3%;
+		height:100%;
+		background-color:rgb(242,242,242);
+}
+
+		#atalhoiconeright{
+			float:center;
+		}
+		
+		#atalhoicone2 h5{
+			font-family:"segoe ui light","verdana";
+			font-weight: 500;
+			font-size:50px;
+			color: #333;
+			margin-top:20px;
+			margin-bottom: 25px;
+			color:gray;
+		}
+		
+		#atalhoicone2 img{
+			margin-top:20px;
+			width:220px;
+			height:150px;
+		}
+		
+		#atalhoicone2 img:hover{
+			-webkit-filter: grayscale(100%);
+			-moz-filter: grayscale(100%);
+			-ms-filter: grayscale(100%);
+			-o-filter: grayscale(100%);
+			filter: grayscale(100%);
+			filter:blur(100%);
+		}
+		
+		#atalhoicone2 a{
+			text-decoration:none;
+		}
+
+#atalhoicone3 {
+		float:left;
+		width: 33.333%;
+		height:100%;
+		background-color:rgb(242,242,242);
+}
+
+		#atalhoiconecenter{
+			float:center;
+			margin-top:20px;
+			width:180px;
+			height:150px;
+		}
+		
+		#atalhoicone3 span{
+			display:none;
+		}
+		#atalhoicone3:hover span{
+			display:block;
+			position:absolute;
+			width:440px;
+			height:300px;
+			
+		}
+		
+		#atalhoicone3 h5{
+			font-family:"segoe ui light","verdana";
+			font-weight: 500;
+			font-size:45px;
+			color: #333;
+			margin-top:20px;
+			margin-bottom: 25px;
+			color:gray;
+			position:;
+		}
+		
+		#atalhoicone3 img:hover{
+			-webkit-filter: grayscale(100%);
+			-moz-filter: grayscale(100%);
+			-ms-filter: grayscale(100%);
+			-o-filter: grayscale(100%);
+			filter: grayscale(100%);
+			filter:blur(100%);
+		}
+		
+		#atalhoicone3 a{
+			text-decoration:none;
+			
+		}
+		
+/*################## ATALHO ICONE STYLE*/
+/*########################################################
+FACEBOOK MERCHAM*/
+
+	div#itemindex{
+		background-color:;
+		width:1320px;
+		height:400px;
+		border-top-style:solid;
+		border-width:1px;
+		border-color: #cccccc;
+	}
+		div#itemindexleft{	
+			width:250px;
+			height:208px;
+			float:left;
+			background-color:;
+			margin:2px;
+			margin-top:90px;
+		}
+		
+				div#itemindexleft img{
+					width:200;
+					height:200;
+					margin:2px;
+					position:left;
+					padding-left: 50px;
+				}
+		
+		div#itemindexright{
+			
+			width:250px;
+			height:208px;
+			float:right;
+			background-color:;
+			margin:2px;
+			margin-top:90px;
+			padding-right:50px;
+		}
+				#facelogo{
+					
+					margin:5px;
+					width:175px;
+					height:175px;
+					margin-top:20px;
+				}
+		
+		div#itemindexcenter{
+			
+			width:500px;
+			height:208px;
+			float:center;
+			background-color:;
+			margin:2px;
+			margin-top:90px;
+		}
+				#pagebotom{
+					color:white;
+					padding:5px 5px;
+					margin: 10px;
+					position:center;
+					font-size: 15px;
+					font-family:"Segoe ui","verdana";
+					border-style:solid;
+					border-width:2px;
+					border-color: #3b5998;
+					border-radius: 3px;
+					background-color:#3b5998;
+					width:150px;
+					height:22px;
+					text-decoration:none;
+					
+				}
+				#itemindexcenter h2{
+					padding-top:30px;
+					font-family:"segoe ui light","segoe ui","verdana";
+					font-weight: 200;
+					font-size:27px;
+					color:gray;
+					margin-bottom: 30px;
+				}
+	
+
+	
+/*PESQUISE MAIS CONTEUDO BOTOES*/
+
+	div#itemindex2{
+		background-color:;
+		width:1320px;
+		height:310px;
+		border-top-style:solid;
+		border-width:1px;
+		border-color: #cccccc;
+	}
+	
+	#itemindex2 h2{
+		font-family:"segoe ui light","verdana";
+		font-weight: 200;
+		font-size:30px;
+		position:center;
+		color: gray;
+	}
+	/*top*/
+		
+			div#itemindex2top{
+				background-color:;
+				width:33.3%;
+				height:200px;
+				float:left;
+				position:relative;
+				overflow:hidden;
+			}
+			
+			#itemindex2top img{
+				width:100%;
+				height:100%;
+			}
+				
+	div#itemindex3{
+		background-color:;
+		width:1320px;
+		height:260px;
+		
+	}
+		
+		
+	/*bottom*/
+		div#itemindex2bottom{
+			background-color:;
+			width:33.3%;
+			height:200px;
+			float:left;
+			position:relative;
+			overflow:hidden;
+		}
+			
+		#itemindex2bottom img{
+			width:100%;
+			height:100%;
+		}
+			
+/*#################################################
+	Noticias Importantes
+*/
+
+	.noticiaindex {
+		border-top-style:solid;
+		border-width:1px;
+		border-color: #cccccc;
+		background-color:;
+		width:1320px;
+		height:auto;
+		
+	}
+	
+	.noticiaindex h2{
+		font-family:"segoe ui light","verdana";
+		font-size:30px;
+		font-weight:200;
+		position:center;
+		background-color:rgb(0,124,0);
+		border-style:solid;
+		border-width:2px;
+		border-color: gray;
+		border-radius: 3px;
+		box-shadow:5px 5px 3px #888888;
+		color: white;
+	}
+	
+	/*noticia caixa 1 */	
+		#indexnoticiacaixa1{
+			background-color:;
+			width:100%;
+			height:500px;
+			margin:5px;
+		}		
+					#fotoleft{
+						float:left;
+						width:33.3%;
+						height:500;
+						background-color: ;
+					}
+					
+					#fotoleft img{
+						height:100%;
+						width:100%;
+					}
+					
+					#vote{
+						float:left;
+						width:33.3%;
+						height:500;
+						background-color: ;
+					}
+						#vote h4{
+							padding-top:30px;
+							font-family:"segoe ui light","segoe ui","verdana";
+							font-weight: 200;
+							font-size:27px;
+							color:gray;
+							margin-top:40px;	
+							margin-bottom: 30px;
+							padding-left:10px;
+							padding-right:10px;
+							
+						}
+						
+						#pagebotomvote{
+							color:white;
+							padding:5px 5px;
+							margin: 10px;
+							position:center;
+							font-size: 15px;
+							font-family:"Segoe ui","verdana";
+							border-style:solid;
+							border-width:2px;
+							border-color: #3b5998;
+							border-radius: 3px;
+							background-color:#3b5998;
+							width:150px;
+							height:22px;
+							text-decoration:none;
+						}
+					
+					#fotorigth{
+						float:left;
+						width:33.3%;
+						height:500;
+						background-color: ;
+					}
+					
+					#fotorigth img{
+						height:100%;
+						width:100%;
+					}
+					
+	
+	/* INDEX noticia caixa 2 */	
+		#indexnoticiacaixa2{
+			margin-top:30px;
+			width:1320px;
+			height:500px;
+			margin:5px;
+			background-color:;
+
+		}
+			#indexnoticiacaixa2up{
+				background-color:;
+				width:1065px;
+				height:25%;
+				margin:1px; 	
+			}
+				#indexnoticiacaixa2up h3{
+					font-family:"segoe ui light","verdana";
+					font-size:30px;
+					position:center;
+					margin-bottom:30px;
+					font-weight:400;
+					color:gray;
+				}
+				
+				#indexnoticiacaixa2up a{
+					color:white;
+					padding:5px 5px;
+					margin: 10px;
+					position:center;
+					font-size: 15px;
+					font-family:"Segoe ui","verdana";
+					border-style:solid;
+					border-width:2px;
+					border-color: green;
+					border-radius: 3px;
+					background-color:green;
+					width:150px;
+					height:22px;
+					text-decoration:none;
+					margin-top: 5px;
+				}
+			
+			#indexnoticiacaixa2down{
+				
+				background-color:;
+				width:1300px;
+				height:75%;
+				margin:1px;
+				margin-top: 30px;
+			}			
+					.fotoskate1{
+						float:left;
+						width:50%;
+						height:300px;	
+					}
+					
+					.fotoskate2{
+						float:right;
+						width:50%;
+						height:300px;
+					}
+					
+		div .separador2 {
+		width:1320px;
+		height:1px;
+		background-color: #c5c5c5;
+		position: relative;
+		margin-top: 60px;
+		margin-bottom: 30px;
+	}
+	
+					
+	
+/*################################################
+CARROSEL INDEX
+*/
+
+#main{
+	margin: 150px auto;
+	padding:10px;
+	box-shadow: 0 0 22px #000;
+}
+
+#carousel{
+	width:1400px;
+	height:600px;
+	overflow:hidden;
+	position: relative;
+	}
+
+#carousel ul{
+	position: center;
+	list-style: none;
+	width:7000px;
+	height:600px;
+}
+
+#carousel ul li{
+	float:left;
+	width:1400px;
+	height:600px;
+}
+
+#carousel ul liu img{
+	width:1400px;
+	height:600px;
+}
+/*
+################################################################################################
+	PÁGINA ""MAIS""
+*/
+	#contmais{	
+			margin-top:10px;
+			background-color: white;
+			position: relative;
+			width: 1320px;
+			height: auto;
+			position: center;
+	}
+	
+	#conteinermais{
+		background-color:white;
+		position: relative;
+		width: auto;
+		height: 660px;
+		position: center;	
+		margin-top: 2px;
+		margin-bottom: 30px;
+	}
+	
+	#conteinermais img{
+		width:1200px;
+		height:615px;
+		margin-bottom:8px;
+	}
+	
+	#conteinermais a{
+		color:white;
+		padding:5px 5px;
+		margin: 10px;
+		position:center;
+		font-size: 15px;
+		font-family:"Segoe ui","verdana";
+		border-style:solid;
+		border-width:2px;
+		border-color: green;
+		border-radius: 3px;
+		background-color:green;
+		width:150px;
+		height:22px;
+		text-decoration:none;
+	}
+	
+	#conteinermais a:hover{
+		background-color:white;
+		color: gray;
+		cursor:pointer;
+	}
+	
+	#conteinermais a:active{
+		background-color:gray;
+		color: white;
+		border-color: gray;
+	}
+	
+/*#########################################################################################################################################
+	MAIS MAIS MAIS MAIS MAIS MAIS MAIS MAIS MAIS
+*/	
+	
+	div.wrapmais{
+		margin-top:15px;
+		background-color: ;
+		width: auto;
+		height:1000px;
+	}
+	
+	div .separador {
+		width:1000px;
+		height:1px;
+		background-color: #c5c5c5;
+		position: relative;
+		margin-top: 60px;
+		margin-bottom: 30px;
+	}
+	
+	
+/*###########################################   LAZER*/	
+
+	div.maisbanner{
+		
+		width:auto;
+		height:620px;
+		background-image: url("img/maisbanner/lazerbanner.jpg ");
+		background-repeat: no-repeat;
+		background-position:center;
+		position:center;
+	}
+	
+		.maisbanner h1{
+			padding-top:200px;
+			font-family: "segoe ui light","segoe ui","verdana";
+			font-size:60px;
+			letter-spacing: -2px;
+			text-align: center;
+			color:white;
+			font-weight: 200;
+		}
+		
+		.maisbanner h2{
+			font-family: "segoe ui light","segoe ui","verdana";
+			font-size:30px;
+			text-align: center;
+			padding-left:150px;
+			padding-right:150px;
+			color:white;
+			font-weight: 200;
+		}
+		.maisbanner h3{
+			font-family: "segoe ui light","segoe ui","verdana";
+			font-size:20px;
+			text-align: center;
+			color:white;
+			font-weight: 400;
+		}
+		
+		.maisbanner img{
+			margin-top: 60px;
+			width: 50px;
+			height:50px;
+		}
+
+/*###########################################   SEGURANÇA*/	
+
+	div.maisbannerseg{
+		
+		width:auto;
+		height:620px;
+		background-image: url("img/maisbanner/segurancabanner.jpg ");
+		background-repeat: no-repeat;
+		background-position:center;
+		position:center;
+	}
+	
+		.maisbannerseg h1{
+			padding-top:200px;
+			font-family: "segoe ui light","segoe ui","verdana";
+			font-size:60px;
+			letter-spacing: -2px;
+			text-align: center;
+			color:white;
+			font-weight: 200;
+		}
+		
+		.maisbannerseg h2{
+			font-family: "segoe ui light","segoe ui","verdana";
+			font-size:30px;
+			text-align: center;
+			padding-left:150px;
+			padding-right:150px;
+			color:white;
+			font-weight: 200;
+		}
+		.maisbannerseg h3{
+			font-family: "segoe ui light","segoe ui","verdana";
+			font-size:20px;
+			text-align: center;
+			color:white;
+			font-weight: 400;
+		}
+		
+		.maisbannerseg img{
+			margin-top: 60px;
+			width: 50px;
+			height:50px;
+		}
+
+/*###########################################   LOCAL*/	
+
+	div.maisbannerlocal{
+		
+		width:auto;
+		height:620px;
+		background-image: url("img/maisbanner/localbanner.jpg ");
+		background-repeat: no-repeat;
+		background-position:center;
+		position:center;
+	}
+	
+		.maisbannerlocal h1{
+			padding-top:200px;
+			font-family: "segoe ui light","segoe ui","verdana";
+			font-size:60px;
+			letter-spacing: -2px;
+			text-align: center;
+			color:white;
+			font-weight: 200;
+		}
+		
+		.maisbannerlocal h2{
+			font-family: "segoe ui light","segoe ui","verdana";
+			font-size:30px;
+			text-align: center;
+			padding-left:150px;
+			padding-right:150px;
+			color:white;
+			font-weight: 200;
+		}
+		.maisbannerlocal h3{
+			font-family: "segoe ui light","segoe ui","verdana";
+			font-size:20px;
+			text-align: center;
+			color:white;
+			font-weight: 400;
+		}
+		
+		.maisbannerlocal img{
+			margin-top: 60px;
+			width: 50px;
+			height:50px;
+		}
+
+/*###########################################   ATIVIDADES*/	
+
+	div.maisbannerativ{
+		
+		width:auto;
+		height:620px;
+		background-image: url("img/maisbanner/atividadebanner.jpg ");
+		background-repeat: no-repeat;
+		background-position:center;
+		position:center;
+	}
+	
+		.maisbannerativ h1{
+			padding-top:200px;
+			font-family: "segoe ui light","segoe ui","verdana";
+			font-size:60px;
+			letter-spacing: -2px;
+			text-align: center;
+			color:white;
+			font-weight: 200;
+		}
+		
+		.maisbannerativ h2{
+			font-family: "segoe ui light","segoe ui","verdana";
+			font-size:30px;
+			text-align: center;
+			padding-left:150px;
+			padding-right:150px;
+			color:white;
+			font-weight: 200;
+		}
+		.maisbannerativ h3{
+			font-family: "segoe ui light","segoe ui","verdana";
+			font-size:20px;
+			text-align: center;
+			color:white;
+			font-weight: 400;
+		}
+		
+		.maisbannerativ img{
+			margin-top: 60px;
+			width: 50px;
+			height:50px;
+		}
+		
+/*###########################################   OBRAS*/	
+
+	div.maisbannerobra{
+		
+		width:auto;
+		height:620px;
+		background-image: url("img/maisbanner/obrasbanner.jpg ");
+		background-repeat: no-repeat;
+		background-position:center;
+		position:center;
+		
+	}
+	
+		.maisbannerobra h1{
+			padding-top:200px;
+			font-family: "segoe ui light","segoe ui","verdana";
+			font-size:60px;
+			letter-spacing: -2px;
+			text-align: center;
+			color:white;
+			font-weight: 200;
+		}
+		
+		.maisbannerobra h2{
+			font-family: "segoe ui light","segoe ui","verdana";
+			font-size:30px;
+			text-align: center;
+			padding-left:150px;
+			padding-right:150px;
+			color:white;
+			font-weight: 200;
+		}
+		.maisbannerobra h3{
+			font-family: "segoe ui light","segoe ui","verdana";
+			font-size:20px;
+			text-align: center;
+			color:white;
+			font-weight: 400;
+		}
+		
+		.maisbannerobra img{
+			margin-top: 60px;
+			width: 50px;
+			height:50px;
+		}
+		
+/*###########################################   PAISAGISMO*/	
+
+	div.maisbannerpaisa{
+		
+		width:auto;
+		height:620px;
+		background-image: url("img/maisbanner/paisabanner.jpg ");
+		
+		position:center;
+		background-repeat: no-repeat;
+		background-position:center;
+	}
+	
+		.maisbannerpaisa h1{
+			padding-top:200px;
+			font-family: "segoe ui light","segoe ui","verdana";
+			font-size:60px;
+			letter-spacing: -2px;
+			text-align: center;
+			color:white;
+			font-weight: 200;
+		}
+		
+		.maisbannerpaisa h2{
+			font-family: "segoe ui light","segoe ui","verdana";
+			font-size:30px;
+			text-align: center;
+			padding-left:150px;
+			padding-right:150px;
+			color:white;
+			font-weight: 200;
+		}
+		.maisbannerpaisa h3{
+			font-family: "segoe ui light","segoe ui","verdana";
+			font-size:20px;
+			text-align: center;
+			color:white;
+			font-weight: 400;
+		}
+		
+		.maisbannerpaisa img{
+			margin-top: 60px;
+			width: 50px;
+			height:50px;
+		}
+		
+/*###########################################   ECOLOGIA*/	
+
+	div.maisbannereco{
+		
+		width:auto;
+		height:620px;
+		background-image: url("img/maisbanner/ecobanner.jpg ");
+		position:center;
+		background-repeat: no-repeat;
+		background-position:center;
+	}
+	
+		.maisbannereco h1{
+			padding-top:200px;
+			font-family: "segoe ui light","segoe ui","verdana";
+			font-size:60px;
+			letter-spacing: -2px;
+			text-align: center;
+			color:white;
+			font-weight: 200;
+		}
+		
+		.maisbannereco h2{
+			font-family: "segoe ui light","segoe ui","verdana";
+			font-size:30px;
+			text-align: center;
+			padding-left:150px;
+			padding-right:150px;
+			color:white;
+			font-weight: 200;
+		}
+		.maisbannereco h3{
+			font-family: "segoe ui light","segoe ui","verdana";
+			font-size:20px;
+			text-align: center;
+			color:white;
+			font-weight: 400;
+		}
+		
+		.maisbannereco img{
+			margin-top: 60px;
+			width: 50px;
+			height:50px;
+		}
+		
+/*###########################################   ACESSIBILIDADE*/	
+
+	div.maisbanneracesso{
+		
+		width:auto;
+		height:620px;
+		background-image: url("img/maisbanner/acessobanner.jpg ");
+		background-repeat: no-repeat;
+		background-position:center;
+		position:center;
+	}
+	
+		.maisbanneracesso h1{
+			padding-top:200px;
+			font-family: "segoe ui light","segoe ui","verdana";
+			font-size:60px;
+			letter-spacing: -2px;
+			text-align: center;
+			color:white;
+			font-weight: 200;
+		}
+		
+		.maisbanneracesso h2{
+			font-family: "segoe ui light","segoe ui","verdana";
+			font-size:30px;
+			text-align: center;
+			padding-left:150px;
+			padding-right:150px;
+			color:white;
+			font-weight: 200;
+		}
+		.maisbanneracesso h3{
+			font-family: "segoe ui light","segoe ui","verdana";
+			font-size:20px;
+			text-align: center;
+			color:white;
+			font-weight: 400;
+		}
+		
+		.maisbanneracesso img{
+			margin-top: 60px;
+			width: 50px;
+			height:50px;
+		}
+
+/*CONTAINERS MAIS MAIS CONFIGURAÇÕES----------------------------------*/
+
+/* ------------------------------------ 10 FOTOS*/
+	div .maisfotos{
+		width: 1200px;
+		height: auto;
+		background-color:;
+	}
+		.maisfotos h2{
+			padding-top:30px;
+			font-family: "segoe ui light","segoe ui","verdana";
+			font-size:40px;
+			letter-spacing: -2px;
+			padding-left:100px;
+			padding-right:100px;
+			text-align: center;
+			color:#333;
+			font-weight: 200;
+		}
+		
+		.maisfotos h3{
+			font-family: "segoe ui light","segoe ui","verdana";
+			font-size:20px;
+			text-align: center;
+			color:#333;
+			font-weight: 400;
+		}
+	
+	div .maisfotogaleria{
+		/*
+			máximo de 10 fotos
+		*/
+		background-color:;
+		width:850px;
+		height: 330px;
+		position: center;
+	}
+	
+			.maisfotosgaleria img{
+				float: left;
+				margin: 0px;
+			}
+	
+
+/*------------------ 1 FOTOS   SINGLE FOTO*/
+	div .containermaissingle {
+		margin-top:30px;
+		width: 1000px;
+		height: 450px;
+		background-color: ;
+	}
+		
+		div .cmsl{	
+			margin-top:25px;
+			width: 327px;
+			height: 400px;
+			background-color: ;
+			float:left;
+		}
+		
+		div .cmsr {
+			margin-top:40px;
+			width: 568px;
+			height: 370px;
+			background-color:orange;
+			float:right;
+		}
+		
+				.cmsl h4{
+					font-family: "segoe ui light","segoe ui","verdana";
+					font-size:40px;
+					text-align:left;
+					color:#333;
+					font-weight: 200;
+				}
+				
+				.cmsl h5{
+					font-family: "segoe ui light","segoe ui","verdana";
+					font-size:17px;
+					text-align: left;
+					color:#333;
+					line-height: 1.5;
+				}
+				
+				.cmsl a{
+					color:#08c;
+					margin: 10px;
+					position:center;
+					font-size: 16px;
+					font-family:"Segoe ui","verdana";
+					width:150px;
+					height:22px;
+					text-decoration:none;
+				}
+				
+				.cmsl a:hover{
+					color:#3D04BA;
+					margin: 10px;
+					position:center;
+					font-size: 16px;
+					font-family:"Segoe ui","verdana";
+					width:150px;
+					height:22px;
+					text-decoration:underline;
+					text-align:left;
+				}
+				
+				.cmsr img{
+					width:100%;
+					height:100%;
+				}
+/*-------------------------------------------------------------*/
+
+
+
+
+
+
+/*RODAPE RODAPE RODAPE RODAPE RODAPE RODAPE RODAPE RODAPE RODAPE RODAPE RODAPE RODAPE 100%*/
+		
+		div .rodapesimples{
+			width:100%;
+			height:100px;
+			background-color: rgb(0,124,0);
+		}
+			div .rodapesimplesletra{
+				width: 1088px;
+				height: 100px;
+				background-color:rgb(0,124,0);
+			}
+			
+				div .rsll{
+					margin-left:40px;
+					width: 800px;
+					height: 100px;
+					background-color:rgb(0,124,0);
+					float: left;
+					background-color:;
+				}
+					.rsll h4{					
+						font-family: "segoe ui light","segoe ui","verdana";
+						font-weight:200;
+						font-size:12px;
+						text-align: left;
+						color:white;
+						line-height: 1.5;
+					}
+				
+				div .rslr{
+					margin-top: 25px;
+					margin-right:35px;
+					width: 50px;
+					height: 50px;
+					background-color:;
+					float: right;
+					
+				}
+				
+		
+/*RODAPE RODAPE RODAPE RODAPE RODAPE RODAPE RODAPE RODAPE RODAPE RODAPE RODAPE RODAPE 100%*/
+
+/* LOGIN BOLETO USUÁRIO ############################################*/
+
+#BoxForm {
+	margin:20px;
+	padding:20px 0 30px 20px;
+	width:400px;
+	height:380px;
+	background:#fff;
+	border:1px solid #88888;
+	border-radius:8px;
+	background-color:rgb(0,124,0);
+	box-shadow: 4px 4px 5px #888888;
+}
+
+#BoxForm ul li {
+	margin:20px 0;
+	list-style:none;
+	position:relative;
+	clear:both;
+}
+
+#form h1{
+	font-family: "segoe ui light","segoe ui","verdana";
+	font-weight:200;
+	font-size:40px;
+	text-align: center;
+	color:white;
+	line-height: 1.5;
+}
+
+#form h2{
+	font-family: "segoe ui light","segoe ui","verdana";
+	font-weight:200;
+	font-size:20px;
+	text-align: center;
+	color:white;
+	line-height: 1.5;
+}
+
+#form label {
+	margin:5px 0;
+	line-height:45px;
+	width:80px;
+	text-align:left;
+	float:left;
+	color:#333;
+}
+
+#form input{
+	float:left;
+	padding:15px;
+	border:1px solid #CCCCCC;
+	background:#fcfcfc;
+	border-radius:5px;
+	color:#333;
+}
+#form input {
+	width:350px;
+}
+
+
+#form input#send_message {
+	width:100px;
+	height:40px;
+	margin-top:30px;
+	cursor:pointer;
+	font-size:13px;
+	font-family:"segoe ui";
+	color:rgb(0,124,0);
+	background:white;
+	border:1px solid #ccc;
+	border-radius:5px;
+	float:center;
+}
+
+#form input#send_message:hover {
+	color:#333;
+	background:#d3ffce;
+	border-color:#999;
+}
+
+#caixalogindescricao{
+	width:500px;
+	float:center;
+	padding:15px;
+	border:1px solid rgb(0,124,0);
+	background:#fcfcfc;
+	border-radius:5px;
+	color:#BA5301;
+	font-family: "segoe ui light","segoe ui","verdana";
+	font-weight:400;
+	font-size:20px;
+	text-align: center;
+	color:rgb(0,124,0);
+	line-height: 1.5;
+	background-color:white;
+	height:100px;
+}
+
+#caixalogindescricao2{
+	width:600px;
+	float:center;
+	padding:15px;
+	font-family: "segoe ui light","segoe ui","verdana";
+	font-weight:400;
+	font-size:15px;
+	text-align: center;
+	color:rgb(0,124,0);
+	line-height: 1.5;
+	background-color:white;
+	height:50px;
+}
+
+
+
+
+
+
+
+/*#######################################################*/

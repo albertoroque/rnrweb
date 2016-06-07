@@ -1,0 +1,618 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	width: 100%;
+	height: 80px;
+	background-color: rgb(166,58,9);
+}
+
+nav img{
+	float:left;	
+	height: 80%;
+	margin-left: 190px;
+	margin-top: 8px;
+	width: 120px;	
+
+	margin-right: 25px;
+}
+
+nav #b-cad{
+	float: right;
+	background-color:rgb(236,183,67);
+	padding: 10px;
+	font-family: "calibri";
+	color:rgb(166,58,9);
+	margin-top: 20px;
+	margin-right: 190px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+nav h3{
+	float:left;
+	color: white;
+	font-family: "calibri";
+	font-size: 30px;
+	font-weight: 200;	
+	margin-left: 10px;
+	margin-top: 25px;
+}
+
+footer{
+	background-color: gray;
+	height: 70px;
+	color: white;
+	font-family: "calibri";
+	font-size: 10px;
+
+	margin-top: 20px;
+}
+
+footer img{
+	float: left;
+	height: 90%;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+footer h2{
+	padding-top: 40px;
+	float: right;
+}
+
+#home{
+	width: 100%;
+	height: 620px;
+	margin: 0;
+	padding: 0;
+	background-image: url(img/pizza1.jpg);
+	background-size: 100% 100%;
+	background-color: rgb(236,183,67);
+}
+
+#separador-home-caixabusca{
+	height:150px;
+	width:100%;
+	background-color:;
+}
+
+#caixabusca{
+	width: 600px;
+	height: 300px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+#caixabusca h1{
+	font-family: "calibri";
+	font-size: 30px;
+	color: white;
+	font-weight: 200;
+	padding-top: 25px;
+	margin: 0px 20px;
+	margin-bottom: 10px;
+}
+#caixabusca form{
+	height: 70px;
+	width: 400px;
+
+}
+
+#caixabusca select{
+	width: 100%;
+	float: left;
+	height: 40px;
+	margin-top: 10px;
+	
+	font-family:"calibri" ;
+	font-size: 30px;
+	font-weight: 200;
+
+	border-width: 0px;
+	border-radius: 5px !important;
+}
+
+#caixabusca select option{
+	font-size: 20px;
+}
+
+#caixabusca input{
+	width: 100%;
+	float: left;
+	height: 40px;
+	margin-top: 10px;
+
+	background-color:#ff6f1a;
+	
+	border-width: 0px;
+	border-radius: 5px !important;
+	
+	font-family: "calibri";
+	font-weight: 200;
+	font-size: 23px;
+	color: white;
+
+	cursor: pointer;
+	
+}
+
+#caixabusca p{
+
+	clear: both;
+	font-family: "calibri";
+	font-size: 15px;
+	font-weight: 100;
+	color: #eee;
+	padding-top: 20px;
+	cursor: pointer;
+}
+
+
+/*--------------------------------------------------------LISTA DE RESTAURANTES*/
+
+div#lista-restaurante{
+	width: 900px;
+	background-color: ;
+	font-family: "calibri";
+	margin-top: 10px;
+	height: auto;	
+}
+
+.clear{
+	clear: both;
+	width: 100%;
+	height: 20px;
+	background-color: ;
+}
+
+#lista-restaurante h1{
+	text-align: left;
+	float: left;
+}
+
+/* RESTAURANTES ABERTOR*/
+#rest-open{
+	width: 100%;
+	height: auto;
+}
+
+#rest-open h1{
+	font-weight: 400;
+	color: rgb(166,58,9);
+}
+
+#rest-open section{
+	width: 32%;
+	float: left;
+	height: 300px;
+	margin-left: 9px;
+	background-color: #eee;
+	margin-top: 10px;
+	-webkit-box-shadow: 10px 10px 17px -11px rgba(0,0,0,0.61);
+	-moz-box-shadow: 10px 10px 17px -11px rgba(0,0,0,0.61);
+	box-shadow: 10px 10px 17px -11px rgba(0,0,0,0.61);
+}
+	
+	#rest-open section img{
+		width: 100%;
+		margin-top: 0;
+		padding-top: 0;
+		height: 150px;
+	}
+
+	#rest-open section h3{
+		float: left;
+		clear: both;
+
+		font-size: 25px;
+		color: #333;
+		
+		font-family: "calibri";
+		font-weight: 400;
+		margin-left: 10px;
+		margin-top: 20px;
+	}
+
+	#rest-open section h4{
+		float: left;
+		clear: both;
+
+		font-size: 15px;
+		color: #333;
+		font-family: "calibri";
+		font-weight: 400;
+		margin-left: 10px;
+		margin-top: 5px;
+	}
+
+	#rest-open  section a{
+		clear: both;
+		width: 93%;
+
+		background-color:rgb(166,58,9);
+		padding: 10px;
+		
+		font-family: "calibri";
+		font-size: 20px;
+		font-style: bold;
+		font-weight: 100;		
+
+		color:white;		
+		
+		cursor: pointer;
+		text-decoration: none;
+		float: left;
+
+		margin-top: 20px;
+	}
+
+/* RESTAURANTES FECHADOS*/
+#rest-closed{
+ 	width: 100%;		
+	padding-top: 30px;	
+	clear: both;
+	height: auto;
+	display: inline-block;
+}
+
+	#rest-closed h1{
+		font-weight: 400;
+		color: rgb(166,58,9);
+	}
+
+	#rest-closed section{
+	width: 32.6%;
+	float: left;
+	height: 120px;
+	margin-left: 5px;
+	background-color: #eee;
+	margin-top: 14px;
+	-webkit-box-shadow: 10px 10px 17px -11px rgba(0,0,0,0.61);
+	-moz-box-shadow: 10px 10px 17px -11px rgba(0,0,0,0.61);
+	box-shadow: 10px 10px 17px -11px rgba(0,0,0,0.61);
+}
+
+	#rest-closed section img{
+		width: 50%;
+		margin-top: 0;
+		margin-left: 0;
+		float: left;
+		height: 120px;
+	}
+
+	#rest-closed section h3{
+		float: left;
+		
+		font-size: 20px;
+		color: #333;
+		
+		font-family: "calibri";
+		font-weight: 400;
+		margin-left: 10px;
+		margin-top: 5px;
+	}
+
+	#rest-closed section h4{
+		float: left;
+		
+		font-size: 15px;
+		color: #333;
+		
+		font-family: "calibri";
+		font-weight: 400;
+		margin-left: 10px;
+		margin-top: 5px;
+	}
+
+	#rest-closed  section a{		
+		width: 47.8%;
+		background-color:#a7a7a7;
+		padding: 3px;
+		
+		font-family: "calibri";
+		font-size: 18px;
+		font-style: bold;		
+
+		color:white;		
+		
+		cursor: pointer;
+		text-decoration: none;
+		float: left;
+	
+		margin-top: 30px;
+	}
+
+/*--------------------------------------------------------CARDÁPIO */
+
+#pizzaria-d{
+	width: 900px;
+	height: 200px;
+	-webkit-box-shadow: 10px 10px 17px -11px rgba(0,0,0,0.61);
+	-moz-box-shadow: 10px 10px 17px -11px rgba(0,0,0,0.61);
+	box-shadow: 10px 10px 17px -11px rgba(0,0,0,0.61);
+	background-color: #f7f7f7;
+
+	margin-top: 10px;
+}
+
+#pizzaria-d-foto{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+
+#pizzaria-d-foto img{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+#pizzaria-d-descricao{
+	float: left;
+	width: 70%;
+	background-color:;
+	text-align: left;
+	font-family: "calibri";
+}
+
+#pizzaria-d-descricao h2{
+	font-family: "calibri";
+	font-size: 40px;
+	font-weight: 400;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+#pizzaria-d-descricao h3{
+	font-family: "calibri";
+	font-size: 22px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+#pdd-status{
+	color: green;
+	margin-bottom: 15px;
+} 
+
+#pizzaria-d-descricao p{
+	font-family: "calibri";
+	font-size: 20px;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+/* CORPO CARDAPIO 900PX DE BAIXO DA DESCRIÇÃO DA PIZZARIA*/
+#corpo-cardapio{
+	width: 900px;
+	height: auto;
+	height: auto;
+	background-color: ;
+	margin-top: 14px;
+	display: inline-block;
+}
+
+/*@@@@@@@@@@@@   CARRINHO*/
+#carrinho{
+	height: auto;
+	width: 280px;
+	float: right;
+	background-color: #ddd;	
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 0px;
+	-webkit-box-shadow: 10px 10px 17px -11px rgba(0,0,0,0.61);
+	-moz-box-shadow: 10px 10px 17px -11px rgba(0,0,0,0.61);
+	box-shadow: 10px 10px 17px -11px rgba(0,0,0,0.61);	
+
+	font-family: "calibri";	
+}
+
+#car-title{
+	background-color: ;
+	height: 80px;	
+	width: 100%;
+}
+
+#car-title img{
+	float: left;
+	width: 30%;
+	height: 100%;
+}
+
+#car-title h1{
+	float: left;
+	text-align: center;
+	margin-left: 10px;
+
+}
+
+#car-title h5{
+	float: left;
+	text-align: center;
+	margin-left: 10px;
+	font-size: 20px;
+}
+
+/*LISTA DE PRODUTOS DO CARRIM*/
+#car-lista{
+	clear: both;
+	background-color: white
+}
+
+#car-lista ul{
+	text-decoration: none;
+	list-style: none;
+}
+
+#car-lista ul li{
+	border-bottom-color:gray;
+	border-bottom-style:solid;
+	border-bottom-width:1px; 
+	background-color: white;
+	height: 30px;
+	padding-top: 8px
+}
+
+#car-lista ul li a{
+	text-decoration: none;
+	padding: 1px 5px;	
+	float: left;
+	border-style: solid;	
+	border-width: 1px;
+	border-color: red;
+	border-radius: 8px;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-family: "arial";
+}
+
+#car-lista ul li p{
+	float: left;
+}
+
+#car-lista ul li h5{
+	float: left;
+	font-family: "calibri";
+	font-size: 20px;
+	font-weight: 400;
+}
+
+#car-lista ul li h6{
+	float: right;
+	font-family: "calibri";
+	font-size: 20px;
+}
+
+.car-item-preco{
+	margin-right: 5px;
+}
+
+#car-preco{
+	clear: both;
+	background-color: #DDD;
+	padding-top: 8px;
+}
+
+	#car-preco h6{
+		float: left;
+		margin-top: 4px;
+		margin-left: 5px;
+	}
+
+	#car-preco h3{
+		float: left;
+		margin-top: 3px;
+		margin-left: 5px;
+	}
+
+	#car-preco p{
+
+	}
+
+	.divisor-taxa-precototal{
+		width: 280px;
+		height: 1px;
+		background-color: gray;
+		clear: both;
+	}
+
+	#car-preco-taxa{
+		float: right;
+		margin-right: 5px;
+	}
+
+	#car-preco-precototal {
+		color: green;
+		font-size: 25px;
+		float: right;	
+		margin-right: 5px;	
+	}
+
+	#car-preco a{
+		clear: both;
+		width: 95%;
+		text-decoration: none;
+		padding: 5px;
+		background-color: green;
+		border-radius: 5px;
+		color: white;
+		float: left;
+		margin-left: 3px;
+		margin-bottom: 2px;
+	}
+
+
+/*@@@@@@@@@@@@   LISTA DO CARDÁPIO*/
+#lista-cardapio{
+	height: auto;
+	width: 610px;
+	float: left;
+	background-color: ;
+	font-family: "calibri";
+}
+
+.categoria{
+	width: 100%;
+	border-radius: 5px;
+	background-color: #ddd;
+	border-color: #aaa;	
+	border-width: 1px;
+	border-style: solid;
+	margin-top: 5px;
+}
+
+.categoria h2{
+	padding: 10px 2px;
+	text-align: left;
+	margin-left: 4px;
+	font-weight: 400;
+}
+
+.item-categoria{
+	width: 100%;
+	height: 70px;
+	background-color:white;
+	border-bottom-style: solid;
+	border-bottom-color: #ddd;
+	border-bottom-width: 1px;
+}
+
+	.item-categoria-nome{
+		text-align: left;
+		float: left;
+		font-size: 25px;
+		width: 50%;
+		background-color: ;	
+		margin-top: 10px;
+		padding-left: 15px;
+	}
+
+	.item-categoria-des{		
+		width: 70%;
+		text-align: left;
+		background-color: ;	
+		float: left;
+		clear: both;
+		padding-left: 15px;
+	}
+
+	.item-categoria-preco{
+		text-align: left;
+		float: right;
+		font-size: 30px;
+		background-color: ;
+		margin-top: -25px;
+		margin-right: 10px;
+
+	}
+
+	.adicionar-item{
+		float: right;
+		margin-top: -20px;
+		margin-right: 10px;
+		color: green;
+	}
+

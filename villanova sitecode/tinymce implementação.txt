@@ -1,0 +1,85 @@
+SENHORA ACKELEY
+
+AQUI ESTÁ O ESCOPO DE IMPLEMENTAÇÃO PARA OS ELEMENTOS EDITÁVEIS DAS PÁGINAS DO SITE.
+
+*criar um unico arquivo php pra puchar o RODAPE e tornar somente os textos editaveis.
+
+*o index não está aqui porque eu vou mexer no design dele ainda.
+
+*tacale pau nesse sitinho ackeley
+
+@@@@@@ ID PARA TORNAR EDITÁVEL @@@@@
+
+------------- EMPRESA.HTML
+
+#bannerempresa
+	-img
+
+#etexto
+	-h2
+	-p
+	-a
+
+
+------------- SERVIÇO.HTML
+
+#bannerservico
+	-img
+
+#textoservico
+	-p
+
+#textoadm
+	-h2
+	-li
+	-img
+
+#textofin
+	-h2
+	-li
+	-img
+#textorh
+	-h2
+	-li
+	-img
+
+#textojuri
+	-h2
+	-li
+	-img
+
+#textost
+	-h2
+	-li
+	-img
+
+
+------------- PROPOSTA.PHP
+	
+#titleproposta
+	-h2
+	-p
+
+#formfoto
+	-img
+	
+------------- CONTATO.HTML
+#cont-a1
+	-h2
+	-h3
+	-h4
+
+#cont-a1-num
+	-img
+	-p
+
+#cont-a2
+	-h2
+	-h3
+	-h4
+
+#contato-local
+	-h2
+	-h3
+
+

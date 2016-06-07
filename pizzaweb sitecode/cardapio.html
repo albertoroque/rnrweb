@@ -1,0 +1,254 @@
+<html>
+<head>
+	<!--
+	Página Cardápio do Restaurante
+
+	- mostra opções de pizzas
+	- carrega carrinho de itens
+
+
+	Inicio do Design: 01/06/2015 
+	-->
+	<title>Cardápio</title>
+	<link rel="stylesheet" href="style.css" content="text/css">
+
+	<link rel="shortcut icon" href="img/icox.ico" type="image/x-icon" />
+		
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+			
+	<meta name="author" content="Alberto, Mitsuo, Thays">
+	
+	<meta name="keywords" content="pizzaweb, pizza online">
+		
+	<!--FONTS AWESOME-->
+	<link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.min.css">
+
+	<script src="js/jquery-1.11.2.min.js"></script>    	 
+
+	<!--CSS MOBILE-->
+	<link rel="stylesheet" href="cssmobile/stylem.css" media="(max-width: 800px)">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+	<script>
+		//EVENTOS JAVA SCRIPT
+	</script>
+</head>
+<body>
+	<nav>
+		<a href="index.html"><img src="img/logo4.png"></a>
+		<h3><i class="fa fa-map-marker"></i></h3>
+		<!--PEGAR CIDADE E BAIRRO DO CLIENTES-->
+		<h3>São Paulo, Bom Retiro</h3>
+		<a id="b-cad"> <i class="fa fa-user"></i> Entrar ou Cadastrar</a>
+	</nav>
+
+<!--___________________________________DESCRIÇÃO DA PIZZARIA-->
+<center>
+	<div id="pizzaria-d">
+		<!--FOTO DA PIZZARIA-->
+		<div id="pizzaria-d-foto">
+			<img src="img/fotorest/p5.jpg">
+		</div>
+		<!--INFO-->
+		<div id="pizzaria-d-descricao">
+			<h2>Pizzaria 6</h2>
+			<h3 id="pdd-status"><i class="fa fa-check"></i> Aberta</h3>
+			<h3><i class="fa fa-plus-square-o"></i> Mais Informações</h3>
+			<p>A entrega mais rápida da região.</p>
+		</div>
+	</div>
+
+
+
+<div id="corpo-cardapio"><!--começo corpo cardápio 900px-->
+
+<!--_________________________________________________CARRINHO-->
+<div id="carrinho">
+	<div id="car-title">
+		<img src="img/car-img.png">
+		<h1>Seu Pedido</h1>
+		<h5>Pizzaria 1</h5>
+	</div>
+
+	<div id="car-lista">
+		<ul>
+			<!--ITEM 1-->
+			<li>
+				<!--quantidade e (+/-) -->
+				<a class="car-item-sub" href="">-</a>	
+				<p>1</p>
+				<a class="car-item-sum"href="">+</a>
+
+				<!--nome item -->
+				<h5>Mussarela</h5>
+				
+				<!--preço-->
+				<h6 class ="car-item-preco">R$ 20,00</h6>
+			</li>
+
+			<!--ITEM 1-->
+			<li>
+				<!--quantidade e (+/-) -->
+				<a class="car-item-sub" href="">-</a>	
+				<p>1</p>
+				<a class="car-item-sum"href="">+</a>
+				<!--nome item -->
+				<h5>Mussarela</h5>
+				<!--preço-->
+				<h6 class ="car-item-preco">R$ 20,00</h6>
+			</li>
+
+			<!--ITEM 1-->
+			<li>
+				<!--quantidade e (+/-) -->
+				<a class="car-item-sub" href="">-</a>	
+				<p>1</p>
+				<a class="car-item-sum"href="">+</a>
+				<!--nome item -->
+				<h5>Mussarela</h5>
+				<!--preço-->
+				<h6 class ="car-item-preco">R$ 20,00</h6>
+			</li>
+			
+		</ul>
+	</div>
+	<div id="car-preco">				
+		<h6>Taxa de Entrega </h6>
+		<p id="car-preco-taxa">R$8,00</p>				
+		<div class="divisor-taxa-precototal"></div>
+		<h3>Preço Total</h3>
+		<p id="car-preco-precototal">R$ 28,00</p>
+		<a href="">Finalizar Pedido</a>
+	</div>
+</div>
+
+<!--_________________________________________________CARDÁPIO-->
+	<div id="lista-cardapio">
+<!--
+TEMPLATE CATEGORIA E ITENS (SECTION DE ITENS POR CATEGORIA)
+			<section>				
+				<div class="categoria">
+NOME CATEGORIA		<h2></h2>
+				</div>
+______________				
+				<div class="item-categoria">
+					
+NOME ITEM			<p class="item-categoria-nome"></p>
+					
+DESCRIÇÃO ITEM		<p class="item-categoria-des"></p>
+					
+BOTAO				<a class="adicionar-item" href="#"><i class="fa fa-plus-circle fa-2x"></i></a>
+					
+PREÇO DO ITEM		<p class="item-categoria-preco"></p>	
+				</div>
+_______	</section>
+-->
+
+		<!--CATEGORIA-->
+		<section>	
+			<!--TITLE CATEGORIA-->
+			<div class="categoria">
+				<h2>Mais Pedidas</h2>
+			</div>
+
+			<!--ITEMS DO CARDAPIO-->
+			<div class="item-categoria">
+				<!--nome pizza-->
+				<P class="item-categoria-nome">Mussarela</P>
+				<!--descrição-->
+				<p class="item-categoria-des">Mussarela</p>
+				<!--adiciona item no carrinho-->
+				<a class="adicionar-item" href="#"><i class="fa fa-plus-circle fa-2x"></i></a>
+				<!--preço-->
+				<p class="item-categoria-preco">R$ 20,00</p>	
+			</div>
+
+
+			<div class="item-categoria">
+				<!--nome pizza-->
+				<P class="item-categoria-nome">Mussarela</P>
+				<!--descrição-->
+				<p class="item-categoria-des">Mussarela</p>
+				<!--adiciona item no carrinho-->
+				<a class="adicionar-item" href="#"><i class="fa fa-plus-circle fa-2x"></i></a>
+				<!--preço-->
+				<p class="item-categoria-preco">R$ 20,00</p>	
+			</div>
+		</section>
+
+		<!--CATEGORIA-->
+		<section>	
+			<!--TITLE CATEGORIA-->
+			<div class="categoria">
+				<h2>Mais Pedidas</h2>
+			</div>
+
+			<!--ITEMS DO CARDAPIO-->
+			<div class="item-categoria">
+				<!--nome pizza-->
+				<P class="item-categoria-nome">Mussarela</P>
+				<!--descrição-->
+				<p class="item-categoria-des">Mussarela</p>
+				<!--adiciona item no carrinho-->
+				<a class="adicionar-item" href="#"><i class="fa fa-plus-circle fa-2x"></i></a>
+				<!--preço-->
+				<p class="item-categoria-preco">R$ 20,00</p>	
+			</div>
+
+
+			<div class="item-categoria">
+				<!--nome pizza-->
+				<P class="item-categoria-nome">Mussarela</P>
+				<!--descrição-->
+				<p class="item-categoria-des">Mussarela</p>
+				<!--adiciona item no carrinho-->
+				<a class="adicionar-item" href="#"><i class="fa fa-plus-circle fa-2x"></i></a>
+				<!--preço-->
+				<p class="item-categoria-preco">R$ 20,00</p>	
+			</div>
+
+		</section>
+
+		<!--CATEGORIA-->
+		<section>	
+			<!--TITLE CATEGORIA-->
+			<div class="categoria">
+				<h2>Mais Pedidas</h2>
+			</div>
+
+			<!--ITEMS DO CARDAPIO-->
+			<div class="item-categoria">
+				<!--nome pizza-->
+				<P class="item-categoria-nome">Mussarela</P>
+				<!--descrição-->
+				<p class="item-categoria-des">Mussarela</p>
+				<!--adiciona item no carrinho-->
+				<a class="adicionar-item" href="#"><i class="fa fa-plus-circle fa-2x"></i></a>
+				<!--preço-->
+				<p class="item-categoria-preco">R$ 20,00</p>	
+			</div>
+
+
+			<div class="item-categoria">
+				<!--nome pizza-->
+				<P class="item-categoria-nome">Mussarela</P>
+				<!--descrição-->
+				<p class="item-categoria-des">Mussarela</p>
+				<!--adiciona item no carrinho-->
+				<a class="adicionar-item" href="#"><i class="fa fa-plus-circle fa-2x"></i></a>
+				<!--preço-->
+				<p class="item-categoria-preco">R$ 20,00</p>	
+			</div>
+
+		</section>
+	</div>
+
+	</div><!--DIM DO CORPO CARDÁPIO-->
+</center>
+
+	<footer>
+		<img src="img/logo4.png">
+		<h2>© copyright 2015 - Pizza Web - Todos os direitos reservados. PizzaWeb.com 	Agência de Restaurantes Online S.A</h2>
+	</footer>
+</body>
+</html>

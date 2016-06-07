@@ -1,0 +1,321 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+.navbar{
+
+	width: 100%;
+	height: 70px;
+	background-color: rgba(255,255,255,1);/*0.95*/
+	
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	position: fixed;
+	
+	z-index:1;
+
+}
+
+.navbar img{
+	width: 15%;
+	height: 80%;
+
+	float:left;
+	padding-left:15px;
+	padding-top: 7px;
+}
+
+/* NAV BAR */
+.navbar ul{
+
+	height: auto;
+	float:right;
+	text-decoration: none;
+	
+	font-family: "segoe ui light", "verdana";
+	font-size:25px; 
+	font-width:400;
+	
+	padding-right: 25px;
+	padding-top: 16px;
+}
+
+.navbar ul li{
+	padding-right: 10px;
+	padding-left: 10px;
+	text-decoration: none;
+	display: inline;
+	color:#636363;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color:#636363; 
+}
+
+/*----------------------CONTAINER */
+#conteinerindex{
+	width: 100%;
+	height: 105%;
+	background-image:url('img/wallpaper/metal11.jpg');
+	background-attachment: fixed, fixed;
+}
+
+
+#zkinoxlogo img{
+	padding-top: 130px;
+	width:60%;
+	height: auto;
+	height: auto;
+	vertical-align: middle;
+	overflow-x: hidden; 
+}
+
+#zkinoxlogoletra img{
+	padding-top:10px;
+	width:50%;
+	height: auto;
+	height: auto;
+	vertical-align: middle;
+	
+}
+
+#conteinerindex h2{
+	background-color:;
+	font-family:"segoe ui light","verdana";
+	font-weight: 400;
+	font-size: 30px;
+	color: #898989;
+	text-align: -webkit-center;
+	margin-top:40px;
+	margin-bottom: 0px;
+}
+
+#botomdownindex{
+	padding-top:2px;
+}
+
+
+/* ---------------PRODUTO*/
+#conteudoprodutos{
+	width: 100%;
+	height:1030px;
+	background-image:url('img/wallpaper/metal6cicle.jpg');
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+	vertical-align: baseline;
+}
+
+#conteudoprodutos img{
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+	background-repeat:no-repeat;
+}
+
+/*caixa transparente*/
+	#produtoslista{
+		border-radius: 10px;
+		background-color: rgba(0,0,0,0.5);	
+		width: 75%;
+		height:87%;
+	}
+
+	#produtoslista h2{
+		font-family:"segoe ui light","verdana";
+		font-weight: 200;
+		font-size: 40px;
+		color: white;
+	}
+		
+	#prodacesso1{
+		background-color:;
+		width:100%;
+		height:350px;
+	}
+	#outrosprodutos{
+		margin-top:200px;
+		background-color:;
+	}
+	
+	#prodletra2{
+			font-family:"segoe ui light","verdana";
+			font-weight:;
+			font-size: 15px;
+			color: white;
+		}
+		
+		.prodbox{
+			float:left;
+			
+			width: 28%;
+			height: 200px;
+			
+			border-radius: 3px;
+			margin-right:2%;
+			margin-left:3%;
+			margin-top: 30px;
+			
+			background-color:white;
+		}
+
+		.prodbox img{
+			width: 100%;
+			float:right;
+			height: 180px;
+		}
+
+		.prodboxrod {
+			width: 100%;
+			height: 15%;
+			background-image:url('img/wallpaper/metal3.jpg');
+		}
+
+		.prodboxrod h3{
+			font-family:"segoe ui light","verdana";
+			font-weight:400;
+			font-size: 20px;
+			color: white;
+		}
+		
+		
+
+/*-------------------QUEM SOMOS*/
+div#quemsomos{
+	width: 100%;
+	height:70%;
+
+	background-image:url('img/wallpaper/metal5.jpg');
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+	vertical-align: baseline;
+
+}
+
+div#quemsomos2{
+	width: 100%;
+	height:70%;
+}
+
+#quemsomos2 img{
+	width:100%;
+}
+
+/*-------------------LOCALIZAÇÃO*/
+
+div#localizacaocont{
+	width: 100%;
+	height: 700px;
+	background-color: ;	
+}
+
+#localizacaocont h3{
+	font-family:"segoe ui light","verdana";
+	font-weight: 200;
+	font-size: 40px;
+	color: gray;
+}
+
+/*--------------------CONTATO*/
+
+div#contatocont {
+	
+	width: 100%;
+	height: 800px;
+	background-color:;
+
+	margin-top: 130px;	
+}
+
+#contatocont h3{
+	font-family:"segoe ui light","verdana";
+	font-weight: 200;
+	font-size: 50px;
+	color: gray;
+	background-color:;
+}
+
+	#cont4cont{
+		height:620px;
+		width: 80%;
+		background-color:;
+		margin-top:15px;
+	}
+	.contatocont-quadro{
+		float:left;
+		width:49%;
+		height:300px;
+		margin:4px;
+		background-color:;
+	}
+		.contatocont-quadro-img{
+			width:50%;
+			height:70%;
+			background-color:;
+		}
+			.contatocont-quadro-img img{
+				width:100%;
+				height:100%;
+			}
+		
+		.contatocont-quadro-texto{
+			width:100%;
+			height:30%;
+			background-color:;
+		}
+			.contatocont-quadro-texto p{
+				font-family:"segoe ui light","euphemia","verdana";
+				font-weight: 200;
+				font-size: 30px;
+				color: gray;
+				padding-top:10px;
+				background-color:;
+			}
+
+/*--------------------RODAPE*/
+
+div#rodapecont {
+	clear:both;
+	width: 100%;
+	height: 400px;
+	background-image:url('img/rodapemetal.png');
+	background-repeat: no-repeat;
+	background-color:;	
+}
+	#rodapecont a{
+		color:white;
+		text-decoration:none;
+	}
+	
+	#rodapecont a:hover{
+		color:black;
+		text-decoration:none;
+		font-family:"segoe ui";
+		transition:1s;
+		font-size: 30px;
+	}
+	
+
+
+#rodapecont h3{
+	float:right;
+	font-family:"segoe ui light","verdana";
+	font-weight: 200;
+	font-size: 20px;
+	width: 30%;
+	color: white;
+	padding-left:25px;
+	padding-top:300px;
+	margin-top: 30px;
+	background-color:;
+}
+
+#icorod{
+	float:left;
+	width: 30%;
+	height:auto;
+	margin-left:30px;
+	padding-top:250px;
+	background-color:;
+}
+

@@ -1,0 +1,565 @@
+@font-face {
+    font-family: Euphemia;
+    src: url(fonts/euphemia.ttf);
+}
+
+@font-face {
+    font-family:Segoe Ui light;
+    src: url(fonts/segoeuilight.ttf);
+}
+
+@font-face {
+    font-family:calibri;
+    src: url(fonts/calibri.ttf);
+}
+
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+.navbar{
+	margin-top: 0;
+	width: 100%;
+	height: 80px;
+	background-color: rgba(255,255,255,1);/*0.95*/
+	
+	box-shadow: 0 3px 3px rgba(0,0,0,.2);
+	position: fixed;
+	z-index: 1;
+}
+.navbar img{
+	width: 16%;
+	height: 80%;
+	float:left;
+	padding-left:15px;
+	padding-top: 7px;
+	margin-left: 15px;
+}
+
+/* NAV BAR */
+.navbar ul{	
+	float:right;
+	text-decoration: none;	
+	
+	font-family:"Euphemia","calibri","calibri","verdana";
+	font-size:16px; 
+	font-width:400;
+	
+	padding-right: 80px;
+	padding-top: 30px;
+	
+}
+
+.navbar ul li{
+
+	padding-right: 10px;
+	padding-left: 10px;
+	text-decoration: none;
+	display: inline;
+
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: rgb(0,100,0);
+
+}
+
+.navbar ul li a:hover{
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-ms-transition: 0.7s;		
+	cursor: pointer;
+	background-color:rgb(0,120,0) ;
+	color: white;
+	padding: 20px 5px;
+	border-radius: 5px;
+}
+
+
+/*-------------------LISTA DINAMICA MOBILE*/
+
+#navmobile {
+	visibility: hidden;
+	padding-right: 15px;
+}
+
+#navmobile a{
+	height: 100%;
+	width: 100%;
+}
+
+#menumobile{
+	display: none;
+	position: inherit;
+	height: auto;
+	height: 160px;
+}
+
+#menumobile ul{
+	display: inline;
+	width: 100%;
+	float:right;
+	height: auto;
+	margin-top: 10px;
+	position: relative;
+
+}
+
+#menumobile ul li{
+	height: 30px;
+	font-size: 18px;
+	font-family: "Euphemia","calibri";
+	border-bottom-color:#eee;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	text-decoration: none;
+	padding-left: 10px;
+	/*background-color: white*/
+}
+
+#menumobile .menua{
+	text-decoration: none;
+	color: green;
+	text-align: right;
+}
+
+/*-----------------------------RODAPE */
+	#rodape{
+		height: 300px;
+		width: 100%;
+		background-image: url("img/rodape.png");
+		background-size: 100% 100%;
+		background-repeat: repeat-x;
+		-moz-filter: brightness(1);
+		-webkit-filter: brightness(1.3);
+		clear: both;
+	}
+
+	#rodape p{
+		font-family:"Euphemia","calibri";
+		font-size:15px; 
+		color: white;
+
+		position: relative;
+		margin-left: 8px;		
+		font-weight: 400;
+	}
+
+	#rodape h4{
+		position: relative;
+		font-family:"Euphemia","calibri";
+		font-size:12px; 
+		font-weight: 400;
+		color: white;
+		margin-left: 10px;
+	}
+
+	#rodape a{
+		text-decoration: none;
+		color: white;
+	}
+
+	#rodtext{
+		padding-top: 220px;
+		float:right;
+		margin-right: 10px;
+	}
+
+	#rodtext h2{
+		font-family:"Euphemia","calibri";
+		font-weight: 400;
+		color: white;
+	}
+
+
+	#rodtext2{
+		padding-top: 220px;
+		float:left;
+		background-color: ;
+		margin-left: 20px;
+	}
+
+	#rodtext2 h2{
+		font-family:"Euphemia","calibri";
+		font-weight: 400;
+		color: white;
+	}
+
+
+/*------------------------------------------ PROPOSTA*/
+
+#titleproposta{
+	padding-top: 10px;
+	width: 70%;
+	height: auto;
+	background-color:;
+	margin-left: 20px;
+}
+
+#titleproposta h2{
+	font-family: "segoe Ui light","calibri";
+	font-style: 400;
+	font-weight: ;
+	font-size: 30px;
+	color: #333;
+	margin-left: 20px;
+}
+
+#titleproposta p{
+	font-family: "Euphemia","calibri";
+	font-style: 200;
+	font-size: 18px;
+	color: #333;
+	margin-top: 10px;
+	margin-left: 30px;
+
+}
+
+#formproposta{
+	margin-top: 30px;
+	width:50%;
+	height: 800px;
+	margin-left: 30px;
+	margin-top: 70px;
+	float: left;
+
+	background-color: ;
+	color: #333;
+}
+
+.bottom2{
+	border-radius: 3px;
+	border-width: 1px;
+	border-color: green;
+	background-color: green;
+	color: white;
+	width: 20%;
+	float: left;
+	margin-left: 390px;
+	padding: 10px;
+}
+
+#formfoto{
+	float: left;
+	width: 45%; 
+	height: 800px;
+	background-color:;
+	margin-top: 70px;
+	
+}
+
+#formfoto img{
+	width: 100%;
+	height: 100%;
+}
+
+
+input{width:350px;}
+
+
+
+/*------------------------------------------ CONTATO*/
+
+#bannercontato img{
+	width: 100%;
+	margin-top: 50px;
+}
+
+#contato-a{
+	width: 80%;
+	height: 600;
+	padding-top: 10px;
+	font-family: "Euphemia","calibri";
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+#cont-a1{
+	float:left;
+	height: 100%;
+	width: 50%;
+	background-color:;
+	margin-left: -50px;
+}
+	
+	#cont-a1-sec{
+		width: 100%;
+		background-color: ;
+		border-style: solid;
+		border-width: 1px;
+		border-radius: 8px;
+		border-color: #ddd;
+	}
+
+	#cont-a1-sec h2{
+		font-size: 30px;
+		font-weight: 200;
+		background-color:green; 
+		color: white;
+		border-style-top: solid;
+		border-width-top: 1px;
+		border-radius: 5px;
+		
+	}
+		#cont-a1-sec-left{
+			float: left;
+			height: 15%;
+			width: 50%;
+			
+		}
+
+			#cont-a1-sec-left h3{
+				font-size: 30px;
+				font-weight: 200;
+				margin-top: 20px;
+			}
+
+		#cont-a1-sec-right{
+			float: left;
+			height: 15%;
+			width: 50%;
+			background-color: ;
+		}
+			#cont-a1-sec-right p{
+				font-size: 25px;
+				font-weight: ;
+				margin: 0;
+				margin-top: 8px;
+
+			}
+
+
+	/*CONTATO PRINCIPAL*/
+	#cont-a1-prin{
+		clear: both;		
+		width: 100%;	
+		background-color:;
+		
+		border-top-style: solid;
+		border-top-width: 1px;
+		border-top-color: #ddd;
+	}
+	
+	#cont-a1-prin p{		
+		font-size: 40px;
+		text-align: center;
+		margin: 10px 0px;
+	}
+
+	#cont-separador{
+		clear: both;
+		margin-bottom: 10px;
+		background-color:;
+	}
+
+
+	#cont-a1-num{
+		padding-top: 10px;
+		background-color:;
+	}
+	#cont-a1-num img{
+		float:left;
+	}
+
+	#cont-a1-num p{
+		font-family: "Euphemia";
+		font-size: 17px;
+	}
+
+	
+	/*TABELA CONTATO*/
+	.tg  {
+		border-collapse:collapse;
+		border-spacing:0;
+		border-color:;
+	}
+	
+	.tg td {
+		font-family:Arial, 
+		sans-serif;font-size:14px;
+		padding:10px 5px;
+		border-style:solid;
+		border-width:0px;
+		overflow:hidden;
+		word-break:normal;
+		border-color:#ccc;
+		color:#333;
+		background-color:#fff;
+	}
+	
+	.tg th{
+		font-family:Arial, sans-serif;
+		font-size:14px;
+		font-weight:normal;
+		padding:10px 5px;
+		border-style:solid;
+		border-width:0px;
+		overflow:hidden;
+		word-break:normal;
+		border-color:#ccc;
+		color:#333;
+		background-color:;
+	}
+	
+	.tg .tg-7khl{
+		font-size:15px
+	}
+
+	#cont-a2{
+		width: 50%;
+		height: 100%;
+		float: right;
+		background-color:;
+	}	
+
+	#cont-a2 h3{
+		font-weight: 200;	
+	}
+
+	#cont-a2 h4{
+		color: rgb(0,150,0);
+		margin-bottom: 30px;
+		margin-left: 20px;
+		margin-top: 20px;
+		font-size: 20px;
+		text-align: left;
+	}
+
+	#cont-a2-online{
+		background-color: ;
+		margin-bottom: 20px;
+	}
+
+	#cont-a2-online h2{		
+		font-size: 30px;
+		font-weight: 200;
+		color: green;
+		margin-bottom: 5px;
+	}
+		#cont-a2-online-x{
+			width: 100%;				
+			font-family: "Euphemia"	;			
+			color: white;			
+			border-style: solid;
+			border-width: 1px;
+			border-radius: 5px;
+			border-color: #ddd;
+
+			background: rgb(0,150,0); /* Old browsers */
+			background: -moz-linear-gradient(top,  rgba(0,150,0,1) 34%, rgba(1,63,1,1) 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(34%,rgba(0,150,0,1)), color-stop(100%,rgba(1,63,1,1))); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top,  rgba(0,150,0,1) 34%,rgba(1,63,1,1) 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top,  rgba(0,150,0,1) 34%,rgba(1,63,1,1) 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top,  rgba(0,150,0,1) 34%,rgba(1,63,1,1) 100%); /* IE10+ */
+			background: linear-gradient(to bottom,  rgba(0,150,0,1) 34%,rgba(1,63,1,1) 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009600', endColorstr='#013f01',GradientType=0 ); /* IE6-9 */
+
+
+			width: 70%;
+			height: 50px;
+
+			padding: 5 5;
+		}
+
+		#cont-a2-online-x a p{
+			padding: 0;
+			margin: 0;
+			color: white;
+			text-decoration: none;
+			text-align: center;
+			width: 100%;
+		}
+
+		#cont-a2-online-x a{
+			text-decoration: none;
+			text-align: center;
+		}
+
+
+	#cont-a2 p{
+		margin: 3px;
+		text-align: left;
+	}
+
+	#cont-a2 img{
+		height: 100%;
+		width: auto;
+	}
+
+	#cont-a2 form{
+		text-align: left;
+		background-color: ;
+		margin-left: 15px;
+	}
+		
+	#cont-a2 input{
+		border-radius: 3px;
+		border-width: 1px;
+		border-color: #aaa;
+		height: 30px;
+	}
+
+	#cont-a2 input :hover{
+		border-color: green;
+		outline: none;
+	}
+		.form-div{
+			height: 6px;
+		}
+
+		#mensagem{
+			resize: none;
+			border-radius: 3px;
+			border-width: 1px;
+			border-color: #aaa;			
+		}
+
+		.bottomcont{
+			color: white;
+			background-color: green;
+			width: 100px;
+			padding: 2px;
+		}
+
+#contato-local{
+	font-family: "Euphemia","calibri";
+	width:50%;
+	background-color: ;
+	float: left;
+	clear: both;
+}
+
+	#contato-local h2{
+		margin-bottom: 18px;
+			font-size: 30px;
+			font-weight: 200;
+	}
+
+	#contato-local h3{
+		font-weight: 200;
+		margin-bottom: 10px;	
+	}
+
+
+#contato-facebook{
+	font-family: "Euphemia","calibri";
+	width: 50%;
+	height: 200px;
+	width:50%;
+	background-color: ;
+	float: left;
+}
+
+	#contato-facebook h2{
+		margin-bottom: 18px;
+		font-size: 30px;
+		font-weight: 200;
+	}
+
+	#contato-facebook h3{
+		font-weight: 200;
+		margin-bottom: 10px;	
+	}
