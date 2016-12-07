@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>CODE</title>
+
+	<!-- scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	<!-- font -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+
+    <!-- css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />
+</head>
+
+<body>
+    <nav class="navbar navbar-default hidden">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    EZ
+                </a>
+            </div>
+        </div>
+    </nav>
+	<div class="container-fluid container-fluid-nopadding">
+		<div class="jumbotron">
+		    <h1>ESTOQUEZERO</h1>
+		    <h3>Aqui você encontra empresas compradoras e vendedoras</h3>
+		    <br>
+            <br />
+		    <p><a class="btn btn-default btn-lg" href="#" role="button">Ver mais</a></p>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 video-container">
+                        <video autoplay loop class="video-container-bg">                            
+                            <source src="video/1.mp4" type="video/mp4">
+                        </video>	
+                    </div>
+                </div>
+            </div>            
+		</div>
+        <div class="media-site">
+            <h2>
+                Design de um Mestre. <br />Intenções de um Idiota.
+            </h2>
+            <a>
+                Veja mais >
+            </a>
+            <br />
+            <img src="img/11.png" class="media-site-img-center" />
+            
+        </div>
+
+        <div class="media-site media-site-white">
+            
+            <div class="row" style="margin-top:80px;">
+                <div class="col-xs-6 media-site-left">
+                    <img src="img/3.png" class="media-site-left-overlayout" />
+                </div>
+                <div class="col-xs-6 media-site-right">
+                    <h3>
+                        Grande potencial em<br />um grande acabamento.
+                    </h3> 
+                    <p>
+                        All the things you love to do are more expressive, more dynamic, and more fun than ever with iOS 10.
+                    </p>                   
+                    <a>Saiba mais ></a>
+                </div>
+
+            </div>
+        </div>
+	</div>
+
+	<style type="text/css">
+		body{
+			font-family: 'Oxygen','Roboto', Roboto;
+		}
+
+        .container-fluid{
+            margin:0px;
+        }
+
+        .container-fluid-nopadding{
+            padding:0px;
+        }
+		.jumbotron{			
+			text-align: center;
+            height:100%;
+            background-color:white;
+		}
+
+        .jumbotron h1{
+            font-weight:400;
+        }
+        .video-container{                     
+            height:605px;            
+            margin: 0 auto;
+        }
+
+        .video-container-bg{ 
+            margin: 0 auto; 
+            background-color:white;                       
+	        right: 0; 
+	        top:0;	        
+            width:1020px;   	        	        	         
+	        z-index: -1000;
+	        background: url(img/9.png) no-repeat;
+	        background-size: contain;             
+            background-position:center center;                        
+        }
+
+        .media-site{
+            margin-left:0px;
+            margin-right:0px;
+            height:800px;
+            background-color:#f2f2f2;
+            text-align:center;
+            padding: 50px;
+            padding-top:100px;            
+        }
+
+        .media-site .media-site-img-center{
+            margin:0 auto;
+            height:400px;
+            margin-top:40px;
+        }
+
+        .media-site-white{           
+            background-color:#fff;                                 
+        }
+
+        .media-site h2{            
+            font-weight:400;
+            font-size:40px;
+            line-height:60px;
+            letter-spacing:-0.4px;
+        }
+
+        .media-site-right{            
+            height:500px;
+            text-align:left;
+            font-weight:400;
+        }
+
+        .media-site-right h3,h4{
+            font-size:34px;
+            line-height:40px;           
+        }
+
+        .media-site-left{            
+            height:500px;
+        }
+
+        .media-site-left-overlayout{
+            position: absolute;
+            right: -268px;
+            height: 584px;
+            top: -115px;            
+        }
+
+        
+        
+             
+       @media screen and (max-width: 1100px) {
+            .video-container {
+                height:100%;
+            }
+            .video-container-bg {
+                width:100%;
+                background: none;                
+            }
+        }
+
+	</style>
+</body>
+
+
+</html>

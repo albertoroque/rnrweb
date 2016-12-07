@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>CODE</title>
+
+	<!-- scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	<!-- css -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />
+
+	<style type="text/css">
+	
+	body{background:#fafafa !important;min-height: 1000px;font-family: Roboto, sans-serif !important;}
+	.panel h2{text-align: center;}
+	.hez-func-panel-left{height: 100%;}
+	.hez-func-panel-right{height: 100%;}
+
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">			
+			<br>
+			<br>
+			<div class="panel panel-default">                
+                <div class="panel-body">
+                    <div class="col-xs-12">
+                        <h2>Aqui você só tem vantagens</h2>
+                    </div>                    
+                    <div class="col-xs-12 hez-func-area">
+                        <div class="row">	                       
+                         	<button type="button" 
+                         		class="btn btn-primary btn-lg" 
+                         		data-toggle="modal" 
+                         		data-target="#modalVideoTuto"
+                         		data-frameSrc="https://player.vimeo.com/video/192461491?color=ffffff&title=0&byline=0"
+                         		data-modalTitle="Tutorial - Como manifestar um interesse">
+							  Como publicar um oferta
+							</button> 
+
+							<button type="button" 
+                         		class="btn btn-primary btn-lg" 
+                         		data-toggle="modal" 
+                         		data-target="#modalVideoTuto"                         		
+                         		data-frameSrc="https://player.vimeo.com/video/192661252?color=ffffff&title=0&byline=0"
+                         		data-modalTitle="Tutorial - Como manifestar um interesse">
+							  Como manifestar um interesse
+							</button>  
+                        </div>
+                    </div>
+                </div>	              
+            </div>             
+		</div>
+	<div>
+		
+	<div id="modalVideoTuto" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog modal-lg" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel"></h4>
+	      </div>
+	      <div class="modal-body">
+	        <iframe 
+	        	src="" 
+	        	width="100%" 
+	        	height="460" 
+	        	frameborder="0" 
+	        	webkitallowfullscreen 
+	        	mozallowfullscreen 
+	        	allowfullscreen>	       
+	       	</iframe>            
+	      </div>	      
+	    </div>
+	  </div>
+	</div>
+	
+	<script type="text/javascript">	
+	
+
+	$('#modalVideoTuto').on('show.bs.modal', function (event) {
+		
+		var button = $(event.relatedTarget); 
+		
+		var frameSrc = button.attr('data-frameSrc'); 
+		var modalTitle = button.attr('data-modalTitle'); 			  
+				
+		var element = $(this);
+
+		element.find("#myModalLabel").text(modalTitle);		
+		
+		var modalFrameVideo = element.find("iframe");
+		
+		modalFrameVideo.attr("src", frameSrc +"&amp;autoplay=1");
+
+		//Ao fechar o modal, atribui '0' o parâmetro 'autoplay' do atributo "src" do vídeo fechando o vídeo
+		//que recebeu autoplay e está em execução
+		element.on('hidden.bs.modal', function (e) { 
+		  modalFrameVideo.attr("src", frameSrc +"&amp;autoplay=0");
+		});
+	});
+
+	 
+	</script>
+
+</body>
+
+
+</html>
